@@ -24,6 +24,7 @@ Albert Einstein's google scholar page is `https://scholar.google.com.au/citation
 ### Notes
 * Please noet that this service is hosted under free version of [serpapi](https://serpapi.com/google-scholar-api) that only allows up to 1_000 queries/day, therefore the API call may not work as expected if it exceeds the daily limit.
 * If image can't be visualised properly, refresh it and your browser will cache it.
-* The hosting script is difficult to share since it contains private API keys, but it is quite straight forward to realise it with `requests` and `vercel`.
+* The hosting script is difficult to be shared since it contains private API keys, but it is quite straight forward to realise it with `requests` and `vercel`.
+* `Matplotlib` is used for plotting and only this style is supported (maybe further update if necessary)
 
 I hope you find some useful things for you, and should you have questions regarding them, please email me.
