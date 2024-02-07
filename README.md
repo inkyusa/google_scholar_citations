@@ -1,4 +1,4 @@
-# google_scholar_citations
+# Google Scholar citations API for Markdown
 
 This repo contains a simple API that can be used within Markdown readme.md file.
 
@@ -6,7 +6,9 @@ Below shows `Albert Einstein`'s google scholar citation summary using this API.
 
 ![Albert Einstein Citation History](https://vercel-citations.vercel.app/api/simple?id=qc6CJjYAAAAJ)
 
-To implement this, I wrote a custom web API that uses [serpapi](https://serpapi.com/google-scholar-api) to obtain scholar information and parsed it using a simple python script hosted on [vercel](https://vercel.com/). A `query` is google scholar ID and it will `response` with an image (shown above). If you want to use this in your project. You can try as below.
+To implement this, I wrote a custom web API that uses [serpapi](https://serpapi.com/google-scholar-api) to obtain scholar information and parsed it using a simple python script hosted on [vercel](https://vercel.com/). A `query` is google scholar ID and it will `response` with an image (shown above). 
+
+If you want to use this in your project. You can try as below.
 
 Change the {YOUR_Google_Scholar_ID} value to your Google Scholar ID.
 
@@ -27,4 +29,4 @@ Albert Einstein's google scholar page is `https://scholar.google.com.au/citation
 * The hosting script is difficult to be shared since it contains private API keys, but it is quite straight forward to realise it with `requests` and `vercel`.
 * `Matplotlib` is used for plotting and only this style is supported (maybe further update if necessary)
 
-I hope you find some useful things for you, and should you have questions regarding them, please email me.
+Hope this useful somehow...
